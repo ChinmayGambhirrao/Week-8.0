@@ -1,17 +1,13 @@
-import {VideoCard} from '../components/VideoCard'
+import { NavBar } from '@/components/Navbar';
+import { VideoGrid } from '@/components/VideoGrid';
+
 
 
 export default function Home() {
   return (
     <div>
-      <VideoCard 
-      title={"Build a custom API + app in 4 hours . Web Dev Challenge"}
-      image={"yt_thumbnail.jpg"}
-      thumbImage={"yt_icon.jpg"}
-      author= {"Tina Huang"}
-      views={"45K views"}
-      time={"1 day ago"}
-      />
+      <NavBar />
+      <VideoGrid />
     </div>
   );
 }
